@@ -77,3 +77,10 @@ script:
 doctr:
   require-master: true
   sync: False
+branches:
+  only:
+    - master
+    - main
+    - develop
+    - dev
+    - qa
